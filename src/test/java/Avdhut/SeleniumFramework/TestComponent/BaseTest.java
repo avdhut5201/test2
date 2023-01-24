@@ -79,7 +79,7 @@ public class BaseTest {
 		
 	}
 	
-	@BeforeMethod(alwaysRun=true)
+	@BeforeTest(alwaysRun=true)
 	public LandingPage launchApplication() throws IOException
 	{
 		

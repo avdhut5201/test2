@@ -9,10 +9,10 @@
 			<include name="ErrorHandling" />
 		</run>
 	</groups>
-	
+
 	<listeners>
-<listener class-name="Avdhut.SeleniumFramework.TestComponent.Listner"></listener>
-</listeners>
+		<listener class-name="Avdhut.SeleniumFramework.TestComponent.Listner"></listener>
+	</listeners>
 	<test thread-count="5" name=" Submit Order Test">
 		<classes>
 			<class name="Avdhut.SeleniumFramework.SubmitOrderTest" />
@@ -27,8 +27,3 @@
 
 
 </suite> <!-- Suite -->
-
-
-
- 
-   

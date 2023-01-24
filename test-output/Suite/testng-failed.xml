@@ -5,16 +5,11 @@
     <listener class-name="Avdhut.SeleniumFramework.TestComponent.Listner"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="Error Validation Test(failed)">
-    <groups>
-      <run>
-        <include name="ErrorHandling"/>
-      </run>
-    </groups>
     <classes>
       <class name="Avdhut.SeleniumFramework.ErrorValidation">
         <methods>
+          <include name="submitorder"/>
           <include name="tearDown"/>
-          <include name="ProductErrorValidation"/>
           <include name="launchApplication"/>
         </methods>
       </class> <!-- Avdhut.SeleniumFramework.ErrorValidation -->
